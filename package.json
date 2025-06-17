@@ -1,0 +1,20 @@
+{
+  "name": "lovenda2",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.6",
+    "@reduxjs/toolkit": "^1.9.5",
+    "recharts": "^2.1.9",
+    "jspdf": "^2.5.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  },
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production"
+  }
+}
